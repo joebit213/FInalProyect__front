@@ -47,6 +47,7 @@ class LoginContainer extends Component{
               <LoginDisplay 
               onChange={this.onChange}
               onSubmit={this.login}
+              loading={this.loading}
               />
             </div>
         )

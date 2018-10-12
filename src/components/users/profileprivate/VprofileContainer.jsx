@@ -8,7 +8,7 @@ import VprofileDisplay from './VprofileDisplay';
 
 class VprofileContainer extends Component{
 
-    sstate = {
+    state = {
         user:{}
     }
 
